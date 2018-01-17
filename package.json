@@ -1,16 +1,17 @@
 {
   "name": "UnCold",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "repository": "git@github.com:Makcy/UnCold.git",
   "author": "Makcy <644215038@qq.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "electron ."
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "electron": "^1.7.10",
-    "request": "^2.83.0"
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
   }
 }
